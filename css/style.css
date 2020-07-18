@@ -1,0 +1,135 @@
+:root {
+  --primary-color: #1ba261;
+  --dark-color: #141414;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: 'Arial',sans-serif;
+  -webkit-font-smoothing: antialiased;
+  background: #000;
+  color: #999;
+}
+
+ul{
+  list-style: none;
+}
+
+h1, h2, h3, h4{
+  color: #fff;
+}
+
+a{
+  color: #fff;
+  text-decoration: none;
+}
+
+p{
+  margin: 0.5rem 0;
+}
+
+img{
+  width: 100%;
+}
+
+.showcase{
+  width: 100%;
+  height: 93vh;
+  position: relative;
+  /* background: url('../img/background.jpg') no-repeat center center/cover; */
+}
+/* Showcase Top */
+.showcase-top{
+  position: relative;
+  height: 90px;
+}
+
+.showcase-top img{
+  width: 180px;
+  position: absolute;
+  top: 50%;
+  left: 8%;
+  transform: translate(-50%,-50%);
+}
+
+.showcase-top-right {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-gap: 1rem;
+  position: absolute;
+  top: 50%;
+  right:0%;
+  transform: translate(0%,-50%);
+}
+
+/* Showcase Content */
+.showcase-content {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+}
+.showcase-content-left {
+  position: relative;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  text-align: left;
+  margin-top: 6rem;
+}
+.showcase-content-left h1{
+  font-size: 4.2rem;
+  font-weight: 700;
+  line-height: 1.25;
+}
+.showcase-content-right {
+  position: relative;
+  margin: auto;
+  display: grid;
+  grid-template-rows: repeat(2,1fr);
+  grid-row-gap: 4rem;
+  justify-content: center;
+  align-items: left;
+  text-align: left;
+  margin-top: 6rem;
+}
+
+
+/* Buttons */
+
+.btn {
+  display: inline-block;
+  background: var(--primary-color);
+  color: #fff;
+  padding: 0.4rem 1.3rem;
+  font-size: 1rem;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+  margin-right: 0.5rem;
+  outline: none;
+  box-shadow: 0 1px rgba(0,0,0,0.45);
+  border-radius: 2px;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+.btn-rounded {
+  border-radius: 10px;
+}
+
+.btn-xl{
+  font-size: 3rem;
+  padding: 1.5rem 2.1rem;
+  text-transform: uppercase;
+}
+
+.btn-icon{
+  margin-left: 1rem;
+}
