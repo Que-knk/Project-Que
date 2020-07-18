@@ -41,7 +41,7 @@ img{
   width: 100%;
   height: 100vh;
   position: relative;
-  background: url('../img/background.png') no-repeat center center/cover;
+  background: url('https://i.ibb.co/yf6JQCz/background.png') no-repeat center center/cover #000;
 }
 
 .showcase::after{
@@ -58,10 +58,9 @@ img{
 /* Showcase Top */
 .showcase-top{
   position: relative;
-  height: 90px;
+  height: 80px;
   z-index: 2;
-  /* background: #28208C; */
-  
+   
 }
 
 .showcase-top img{
@@ -77,13 +76,11 @@ img{
   top: 50%;
   right:0%;
   transform: translate(0%,-50%);
-  overflow: hidden;
 }
 
 /* Showcase Content */
 .showcase-content {
   display: grid;
-  /* z-index: 2; */
   margin-top: 7rem;
   grid-template-columns: repeat(2,1fr);
 }
