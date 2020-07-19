@@ -222,7 +222,10 @@ img{
   margin: 8px 0;
   width: 100%;
 }
-
+.meet-team{
+  margin-top: 2rem;
+  font-size: 1.2rem;
+}
 button{
   border-radius: 20px;
   border: 1px solid #28208C; 
@@ -361,20 +364,6 @@ button.ghost {
   transform: translateX(20%);
 }
 
-/* media query */
-@media(max-width:960px){
-.showcase{
-  height: 70vh;
-}
-.showcase-top img{
-  top: 30%;
-  left: 0%;
-  transform: translate(0);
-}
-.showcase-top-right {
-  float: none;
-}
-}
 /* About Us-----------------------------------------------------------------------*/
 #about {
   padding: 100px 0;
@@ -426,9 +415,6 @@ button.ghost {
   max-width: 500px;
   margin-right: 100px;
   display: inline-block;
-<<<<<<< Updated upstream
-}
-=======
 }
 
 /* OUR TEAM ----------------------------------------------------- */
@@ -524,8 +510,10 @@ button.ghost {
 
 .card-btn{
   padding: 1rem 2.5rem;
+
   /* background-color: #445ae3; */
   background-color: var(--primary-color);
+
   border-radius: 2rem;
   margin: 1rem 0;
   text-transform: uppercase;
@@ -631,4 +619,4 @@ button.ghost {
   .card:hover{
     transform: scale(1.05);
   }
->>>>>>> Stashed changes
+
