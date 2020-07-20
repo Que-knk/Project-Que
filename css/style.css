@@ -168,10 +168,10 @@ img{
   align-items: center;
   overflow: hidden;
   margin-bottom: 100px;
-  min-width: 400px;
+  /* min-width: 400px; */
   width: 60%;
   max-width: 90%;
-  min-height: 580px;
+  /* min-height: 580px; */
   height: 70%;
   max-height: 80%;
   z-index: 2;
@@ -598,6 +598,11 @@ button.ghost {
   .btn-icon{
     margin-left: 0.4rem;
   }
+  .btn-xl{
+    font-size: 1.8rem;
+    padding: 0.3rem 0.8rem;
+    text-transform: uppercase;
+  }
 
   .about-left-col{
     flex-basis: 100%;
@@ -623,7 +628,7 @@ button.ghost {
   /* signin-page */
   .container{
     margin-top: 100px;
-    width: 480px;
+    /* width: 480px; */
     overflow-y: hidden;
   }
   .social-container a{
