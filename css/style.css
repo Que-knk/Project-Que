@@ -606,12 +606,10 @@ button.ghost {
   }
   .about-right-col h1{
     flex-basis: 100%;
-    text-align: center;
   }
   .about-text {
-    width: 100%;
-    margin: 0 10px;
-    align-items: center;
+    margin: 0 20px;
+    display: inline-block;
     text-align: center;
   }
 
