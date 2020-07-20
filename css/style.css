@@ -167,11 +167,14 @@ img{
   justify-content: center;
   align-items: center;
   overflow: hidden;
-  margin-top: 100px 0 50px 0;
   width: 768px;
   max-width: 90%;
   min-height: 480px;
-  z-index: 2;
+  margin-top: 100px 0 50px 0;
+  max-width: 90%;
+  min-width: 768px;
+  min-height: 680px;
+  max-height: 90%;
 }
 
 .container-flex {
@@ -202,6 +205,8 @@ img{
 
 .social-container {
   margin: 20px 0;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
 }
 
 .social-container a{
@@ -584,14 +589,17 @@ button.ghost {
     grid-template-rows: 1fr;
     
   }
-  
   .showcase-top img{
     width: 150px;
     top: 30%;
     left: 0%;
     transform: translate(0);
   }
-    .about-left-col {
+
+  .btn-icon{
+    margin-left: 0.4rem;
+  }
+  .about-left-col {
     flex-basis: 100%;
   }
   .about-left-col img{
@@ -612,8 +620,6 @@ button.ghost {
     display: inline-block;
     text-align: center;
   }
-
-}
 
   @media screen and (min-width:700px){
     .card-wrapper{
