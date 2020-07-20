@@ -613,6 +613,9 @@ button.ghost {
     text-align: center;
   }
 
+  .container{
+    margin-top: 100px;
+  }
 }
 
   @media screen and (min-width:700px){
