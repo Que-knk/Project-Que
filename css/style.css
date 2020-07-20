@@ -204,6 +204,8 @@ img{
 
 .social-container {
   margin: 20px 0;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
 }
 
 .social-container a{
