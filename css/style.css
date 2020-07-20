@@ -570,12 +570,15 @@ button.ghost {
 /* media query --------------------------------------------- */
 @media(max-width:960px){
   .showcase{
-    height: 70vh;
+    height: 100vh;
   }
   .showcase-top img{
     top: 30%;
     left: 0%;
     transform: translate(0);
+  }
+  .showcase-content{
+    grid-template-columns: 1fr;
   }
   .showcase-content-left h1{
     font-size: 3.8rem;
@@ -613,7 +616,12 @@ button.ghost {
     display: inline-block;
     text-align: center;
   }
+  /* signin-page */
+  .container{
+    margin-top: 100px;
+    overflow-y: hidden;
   }
+}
 
   @media screen and (min-width:700px){
     .card-wrapper{
