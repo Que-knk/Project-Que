@@ -168,8 +168,8 @@ img{
   align-items: center;
   overflow: hidden;
   margin-bottom: 100px;
-  min-width: 580px;
-  width: 70%;
+  width: 580px;
+  /* width: 70%; */
   max-width: 90%;
   min-height: 680px;
   height: 70%;
