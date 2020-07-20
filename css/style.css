@@ -167,8 +167,8 @@ img{
   justify-content: center;
   align-items: center;
   overflow: hidden;
-  margin: 100px 0 50px 0;
-  min-width: 600px;
+  margin-bottom: 100px;
+  min-width: 580px;
   width: 70%;
   max-width: 90%;
   min-height: 680px;
@@ -179,6 +179,7 @@ img{
 
 .container-flex {
   display: flex;
+  margin-bottom: 100px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
