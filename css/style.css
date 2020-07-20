@@ -167,9 +167,11 @@ img{
   justify-content: center;
   align-items: center;
   overflow: hidden;
-  margin-top: 2rem;
-  width: 768px;
+  margin-top: 100px;
+  width: 70%;
+  height: 70%;
   max-width: 100%;
+  min-width: 768px;
   min-height: 480px;
   z-index: 2;
 }
@@ -603,7 +605,6 @@ button.ghost {
     flex-basis: 100%;
     align-items: center;
     justify-content: center;
-    /* border-top: 1px solid #333; */
   }
   .about-right-col h1{
     flex-basis: 100%;
@@ -616,6 +617,7 @@ button.ghost {
 
   .container{
     margin-top: 100px;
+    overflow-y : hidden; 
   }
 }
 
