@@ -167,10 +167,13 @@ img{
   justify-content: center;
   align-items: center;
   overflow: hidden;
-  margin-top: 2rem;
-  width: 768px;
-  max-width: 100%;
+  margin: 100px 0 50px 0;
+  min-width: 600px;
+  width: 70%;
+  max-width: 90%;
   min-height: 680px;
+  height: 70%;
+  max-height: 90%;
   z-index: 2;
 }
 
