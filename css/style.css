@@ -577,9 +577,10 @@ button.ghost {
   }
   .showcase-content-left h1{
     font-size: 3.8rem;
+    line-height: 1;
   }
   .showcase-content-right {
-    margin-top: 100px;
+    margin-top: 40px;
     grid-template-rows: 1fr;
     
   }
