@@ -168,8 +168,8 @@ img{
   align-items: center;
   overflow: hidden;
   margin-top: 100px 0 50px 0;
-  max-width: 90%;
   width: 768px;
+  max-width: 90%;
   min-height: 480px;
   z-index: 2;
 }
@@ -613,10 +613,6 @@ button.ghost {
     text-align: center;
   }
 
-  .container{
-    margin-top: 100px;
-    overflow-y: hidden; 
-  }
 }
 
   @media screen and (min-width:700px){
@@ -656,4 +652,3 @@ button.ghost {
   .card:hover{
     transform: scale(1.05);
   }
-
