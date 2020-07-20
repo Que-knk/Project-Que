@@ -570,17 +570,28 @@ button.ghost {
 /* media query --------------------------------------------- */
 @media(max-width:960px){
   .showcase{
-    height: 70vh;
+    height: 100vh;
   }
+  .showcase-content {
+    grid-template-columns: 1fr;
+  }
+  .showcase-content-left h1{
+    font-size: 3.8rem;
+  }
+  .showcase-content-right {
+    margin-top: 100px;
+    grid-template-rows: 1fr;
+    
+  }
+  
   .showcase-top img{
+    width: 150px;
     top: 30%;
     left: 0%;
     transform: translate(0);
   }
-  .showcase-top-right {
-    float: none;
-  }
-  }
+
+}
 
   @media screen and (min-width:700px){
     .card-wrapper{
