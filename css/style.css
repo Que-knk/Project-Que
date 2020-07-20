@@ -591,11 +591,8 @@ button.ghost {
     transform: translate(0);
   }
 
-  .btn-xl{
-    font-size: 1rem;
-    padding: 0.3rem 0.8rem;
-    text-transform: uppercase;
-    overflow: hidden;
+  .btn-icon{
+    margin-left: 0.4rem;
   }
   .about-left-col {
     flex-basis: 100%;
