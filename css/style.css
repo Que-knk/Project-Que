@@ -600,7 +600,19 @@ button.ghost {
   }
   .about-right-col {
     flex-basis: 100%;
+    align-items: center;
+    justify-content: center;
     /* border-top: 1px solid #333; */
+  }
+  .about-right-col h1{
+    flex-basis: 100%;
+    text-align: center;
+  }
+  .about-text {
+    width: 100%;
+    margin: 0 10px;
+    align-items: center;
+    text-align: center;
   }
 
 }
