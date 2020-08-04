@@ -162,11 +162,15 @@ img{
 .container{
   font-family: 'Montserrat',sans-serif;
   background: #fff;
-  border-radius: 10px;  
+  border-radius: 10px;
+  position: relative;
+  justify-content: center;
+  align-items: center;
   overflow: hidden;
   margin-top: 2rem;
   width: 768px;
   max-width: 100%;
+  min-height: 480px;
   z-index: 2;
 }
 

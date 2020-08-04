@@ -14,7 +14,7 @@
   <header class="showcase">
     <nav class="showcase-top">
       <img src="https://i.ibb.co/PhV9DKs/logo.png" alt="logo">
-      <a href="signin.html" class="btn btn-rounded">Sign In <i class="fas fa-user"></i></a>
+      <a href="login.php" class="btn btn-rounded">Login <i class="fas fa-user"></i></a>
     </nav>
     <div class="showcase-content">
       <div class="showcase-content-left">
@@ -49,7 +49,7 @@
           outside the store. To overcome this Project Que offers you the freedom to book a slot in the
           store according to your suitable time.
         </p>
-        <a href="ourteam.html"><button class="meet-team">Meet the Team</button></a>
+        <a href="ourteam.php"><button class="meet-team">Meet the Team</button></a>
         <h2>“You can’t solve a problem on the same level that it was created.
           You have to rise above it to the next level.” </h2>
         <h3>–Albert Einstein</h3>
