@@ -61,13 +61,14 @@ img{
 .showcase-top{
   position: relative;
   width: 100%;
-  height: 80px;
+  height: 40px;
   z-index: 2;
    
 }
 
 .showcase-top img{
-  width: 180px;
+  width: 120px;
+  margin-top: 10px;
   position: absolute;
   top: 50%;
   left: 8%;
@@ -75,6 +76,7 @@ img{
 }
 
 .showcase-top a {
+  margin-top: 10px;
   position: absolute;
   top: 50%;
   right:0%;
@@ -84,6 +86,8 @@ img{
 /* Showcase Content */
 .showcase-content {
   display: grid;
+  align-items: center;
+  justify-content: center;
   margin-top: 7rem;
   grid-template-columns: repeat(2,1fr);
 }
@@ -95,7 +99,6 @@ img{
   flex-direction: column;
   justify-content: center;
   align-items: left;
-  text-align: left;
 }
 .showcase-content-left h1{
   font-size: 5.2rem;
@@ -111,7 +114,7 @@ img{
   grid-row-gap: 3rem;
   justify-content: center;
   align-items: center;
-  text-align: left;
+
 }
 
 
@@ -152,85 +155,6 @@ img{
 .btn-icon{
   margin-left: 1rem;
 }
-/* SIGNIN -------------------------------------------------------------------------- */
-.container h1{
-  color: #000;
-  font-weight: bold;
-  margin-bottom: 10px;
-}
-
-/* signin-container */
-.container{
-  font-family: 'Montserrat',sans-serif;
-  background: #fff;
-  border-radius: 10px;
-  position: relative;
-  justify-content: center;
-  align-items: center;
-  overflow: hidden;
-  margin-bottom: 100px;
-  width: 90%;
-  height: 80%;
-  z-index: 2;
-}
-
-.container-flex {
-  display: flex;
-  margin-bottom: 100px;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin: auto;
-}
-
-.container a{
-  color: #333;
-  font-size: 14px;
-  text-decoration: none;
-  margin: 15px 0;
-}
-
-.form-container form{
-  background: #fff;
-  display: flex;
-  flex-direction: column;
-  padding: 0 50px;
-  height: 100%;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-.social-container {
-  /* margin: 20px 0; */
-  width: 100%;
-  display: grid;
-  justify-items: center;
-  grid-template-columns: repeat(3,1fr);
-}
-
-.social-container a{
-  border: 1px solid #dddddd;
-  border-radius: 50%;
-  display:  inline-flex;
-  justify-content: center;
-  align-items: center;
-  margin: 0 5px;
-  height: 40px;
-  width: 40px;
-}
-
-.form-container input {
-  background: #eee;
-  border: none;
-  padding: 12px 15px;
-  margin: 8px 0;
-  width: 100%;
-}
-.meet-team{
-  margin-top: 2rem;
-  font-size: 1.2rem;
-}
 button{
   border-radius: 20px;
   border: 1px solid #28208C; 
@@ -256,117 +180,85 @@ button.ghost {
   background: transparent;
   border-color: #fff;
 }
-
-.form-container {
-  position: absolute;
-  top: 0;
-  height: 100%;
-  transition: all 0.6s ease-in-out;
+/* SIGNIN -------------------------------------------------------------------------- */
+.container h1{
+  color: #000;
+  font-weight: bold;
+  margin-bottom: 10px;
 }
 
-.sign-in-container {
-  left: 0;
-  width: 50%;
+/* signin-container */
+#container{
+  margin-top: 5rem;
+  background: #fff;
+  border-radius: 10px;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  margin-bottom: 100px;
+  width: 70%;
+  height: 70%;
   z-index: 2;
 }
 
-.sign-up-container {
-  left: 0;
-  width: 50%;
-  opacity: 0;
-  z-index: 1;
-}
-
-.overlay-container {
-  position: absolute;
-  top: 0;
-  left: 50%;
-  width: 50%;
-  height: 100%;
-  overflow: hidden;
-  transition: transform 0.6s ease-in-out;
-  z-index: 100;
-}
-
-.overlay-container p{
-  
-    font-size: 14px;
-    font-weight: 100;
-    line-height: 20px;
-    letter-spacing: 0.5px;
-    margin: 20px 0 30px;
-  
-}
-
-.overlay {
-  background: #0af062;
-  color: #fff;
-  position: relative;
-  left: -100%;
-  height: 100%;
-  width: 200%;
-  transform: translateX(0);
-  transition:  transform 0.6s ease-in-out;
-}
-
-.overlay-panel  {
-  position: absolute;
-  top: 0;
+.container-flex {
   display: flex;
+  margin-bottom: 100px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 0 40px;
+  margin: auto;
+}
+
+.container a{
+  color: #333;
+  font-size: 14px;
+  text-decoration: none;
+  margin: 15px 0;
+}
+
+.form-container form{
+  background: #fff;
+  
+  padding: 0 50px;
   height: 100%;
-  width:  50%;
+  justify-content: center;
+  align-items: center;
   text-align: center;
-  transform: translateX(0);
-  transition:  transform 0.6s ease-in-out;
 }
 
-.overlay-right  {
- right: 0;
- transform: translateX(0%);
- background: linear-gradient(to right,#0af062,#28208C) no-repeat 0 0 /cover;
+.social-container {
+  margin: 20px 0;
+  width: 100%;
+  display: grid;
+  justify-items: center;
+  grid-template-columns: repeat(3,1fr);
 }
 
-.overlay-left{
-  transform: translateX(-20%);
-  background: linear-gradient(to left,#0af062,#28208C) no-repeat 0 0 /cover;
+.social-container a{
+  border: 1px solid #dddddd;
+  border-radius: 50%;
+  display:  inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 5px;
+  height: 40px;
+  width: 40px;
 }
 
-/* Animation */
-
-/* move signin to the right */
-.container.right-panel-active .sign-in-container {
-  transform: translateX(100%);
+.form-container input {
+  background: #eee;
+  border: none;
+  padding: 12px 15px;
+  margin: 8px 0;
+  width: 100%;
 }
 
-/* move overlay to the left */
 
-.container.right-panel-active .overlay-container {
-  transform: translateX(-100%);
-}
-
-/* Bring Sign-UP over signin */
-
-.container.right-panel-active .sign-up-container {
-  transform: translateX(100%);
-  opacity: 1;
-  z-index: 5;
-}
-/* Move overlay back to the right */
-
-.container.right-panel-active .overlay{
-  transform: translateX(50%);
-}
-
-.container.right-panel-active .overlay-left {
-  transform: translateX(0);
-}
-
-.container.right-panel-active .overlay-right {
-  transform: translateX(20%);
+.sign-in-container {
+  width: 100%;
+  z-index: 2;
 }
 
 /* About Us-----------------------------------------------------------------------*/
@@ -421,7 +313,10 @@ button.ghost {
   margin-right: 100px;
   display: inline-block;
 }
-
+.meet-team{
+  margin-top: 2rem;
+  font-size: 1.2rem;
+}
 /* OUR TEAM ----------------------------------------------------- */
 
 #team{
@@ -575,9 +470,10 @@ button.ghost {
     height: 100vh;
   }
   .showcase-top img{
-    top: 30%;
-    left: 0%;
-    transform: translate(0);
+    
+    top: 50%;
+    left: 10%;
+    transform: translate(-40%,-40%);
   }
   .showcase-content{
     grid-template-columns: 1fr;
@@ -606,9 +502,7 @@ button.ghost {
     flex-basis: 100%;
   }
   .about-left-col img{
-    width: 100%;
-    height: 60vh;
-    transform: translateY(-80px);
+   display: none;
   }
   .about-right-col{
     flex-basis: 100%;
