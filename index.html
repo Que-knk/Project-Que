@@ -1,69 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <title>Project Que</title>
   <meta charset="UTF-8">
-  <meta name="description" content="Que : Click | Book | Skip the Crowd">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="https://kit.fontawesome.com/51e4d4cf9c.js" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="./main.css">
-  <link type="text/css" rel="stylesheet" href="https://cdn.firebase.com/libs/firebaseui/3.5.2/firebaseui.css" />
-  <script src="https://www.gstatic.com/firebasejs/7.21.0/firebase-app.js"></script>
-  <script src="https://cdn.firebase.com/libs/firebaseui/3.5.2/firebaseui.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/7.21.0/firebase-auth.js"></script>
-
-
+  <link rel="stylesheet" href="css/style.css">
+  <title>Que - Click,Book,Skip the Crowd</title>
 </head>
+
 <body>
-  <header>
-    <nav class="navbar">
-    
-      <a href="#" class="navbar-brand"><img src="https://i.ibb.co/PhV9DKs/logo.png" class="logo"></a> 
-             
-        <a href="#" class="btn btn-primary mr-2 my-sm-0 signin">Sign In <i class="fas fa-user"></i></a> 
+
+  <header class="showcase">
+    <nav class="showcase-top">
+      <img src="https://i.ibb.co/PhV9DKs/logo.png" alt="logo">
+      <a href="signin.html" class="btn btn-rounded">Sign In <i class="fas fa-user"></i></a>
     </nav>
-    
-    <div class="showcase">
-      <div class="card-wrapper">
-        <div class="card">
-          
-          <img src="./img/click1.svg" alt="Click" class="card-img">
-          <h1>Click.</h1>
-        </div>
-  
-        <div class="card">
-  
-          <img src="./img/book.svg" alt="Book" class="card-img">
-          <h1>Book.</h1>
-        </div>
-  
-        <div class="card">
-  
-          <img src="./img/queue.svg" alt="Queue" class="card-img">
-          <h1>Skip the Crowd.</h1>
-        </div>
+    <div class="showcase-content">
+      <div class="showcase-content-left">
+        <h1>Click.</h1>
+        <h1>Book. </h1>
+        <h1>Skip the Crowd.</h1>
+      </div>
+      <div class="showcase-content-right">
+        <a href="#" class="btn btn-xl btn-rounded">
+          Outlets <i class="fas fa-chevron-right btn-icon"></i>
+        </a>
+        <a href="#" class="btn btn-xl btn-rounded">
+          How Does it work <i class="fas fa-chevron-right btn-icon"></i>
+        </a>
       </div>
     </div>
   </header>
-  
-<!-- The Modal -->
-<div id="signinModal" class="modal">
 
-  <!-- Modal content -->
-  <div class="modal-content">
-    <div class="modal-header">
-      <span class="close">&times;</span>
-      <h2>Login</h2>
-    </div>
-    <div class="signin-modal">  
-      <div id="firebaseui-auth-container"></div>
-      <div id="loader">Loading...</div>
-   </div>
-  </div>
 
-</div>
-   <!-- About US -->
-   <section id="about">
+  <!-- About US -->
+  <section id="about">
 
     <div class="about-left-col">
       <img src="https://i.ibb.co/MfmF6GW/undraw-gone-shopping-vwmc.png" alt="">
@@ -77,18 +49,14 @@
           outside the store. To overcome this Project Que offers you the freedom to book a slot in the
           store according to your suitable time.
         </p>
+        <a href="ourteam.html"><button class="meet-team">Meet the Team</button></a>
         <h2>“You can’t solve a problem on the same level that it was created.
           You have to rise above it to the next level.” </h2>
         <h3>–Albert Einstein</h3>
       </div>
     </div>
   </section>
-
-  
-  
-  <script src="firebase.js"></script>
-  <script src="login.js"></script>
-  <script src="app.js"></script>
 </body>
+<script src="js/main.js"></script>
 
 </html>
